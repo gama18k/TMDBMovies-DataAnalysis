@@ -1,7 +1,18 @@
-Importei uma base de dados que encontrei no Kaggle que tinha avaliações de mais de 5000 filmes, e consegui renomear as colunas do DataFrame, contar, filtrar dados e criar histogramas.
+# TMDB Movie Data Analysis
 
-Decidi focar na análise dos idiomas originais dos filmes. Ao examinar os dados, notei que havia uma quantidade muito maior de filmes em inglês comparado a outros idiomas.
+Este projeto visa analisar a distribuição de idiomas nos filmes presentes no banco de dados do TMDB (The Movie Database). O objetivo principal é explorar a predominância do idioma inglês na indústria cinematográfica e examinar a diversidade de filmes em outros idiomas.
 
-Para simplificar a análise, agrupei os filmes em duas categorias: "Inglês" e "Outros". Em seguida, excluí os filmes em inglês e foquei em analisar apenas os outros idiomas. Com isso, ficou mais fácil perceber a variedade de idiomas representados e a quantidade de filmes em cada um.
+## Descrição
 
-Classifiquei os dados restantes por ordem de frequência, do idioma mais comum ao menos comum. Para melhorar a visualização, alterei as cores dos gráficos, facilitando a interpretação dos resultados.
+Através de um conjunto de dados contendo avaliações de mais de 5000 filmes, foi realizada uma análise focada nos idiomas originais dos filmes. O projeto inclui etapas de:
+
+- **Importação e pré-processamento dos dados**: limpeza, renomeação de colunas e contagem de valores.
+- **Análise exploratória**: distribuição dos filmes por idioma, com foco na comparação entre inglês e outros idiomas.
+- **Visualizações**: gráficos de barras e pizza para ilustrar a quantidade de filmes em cada idioma, além de gráficos categóricos para explorar a distribuição de filmes em outros idiomas.
+
+## Tecnologias Utilizadas
+
+- **Python**: Linguagem de programação utilizada para análise de dados.
+- **Pandas**: Biblioteca para manipulação e análise de dados.
+- **Seaborn**: Biblioteca para visualizações gráficas.
+- **Jupyter Notebook**: Ambiente para execução e documentação do código.
