@@ -2,13 +2,11 @@
 
 Este projeto visa analisar a distribuição de idiomas nos filmes presentes no banco de dados do TMDB (The Movie Database). O objetivo principal é explorar a predominância do idioma inglês na indústria cinematográfica e examinar a diversidade de filmes em outros idiomas.
 
-## Descrição
+## Estrutura do Projeto
 
-Através de um conjunto de dados contendo avaliações de mais de 5000 filmes, foi realizada uma análise focada nos idiomas originais dos filmes. O projeto inclui etapas de:
-
-- **Importação e pré-processamento dos dados**: limpeza, renomeação de colunas e contagem de valores.
-- **Análise exploratória**: distribuição dos filmes por idioma, com foco na comparação entre inglês e outros idiomas.
-- **Visualizações**: gráficos de barras e pizza para ilustrar a quantidade de filmes em cada idioma, além de gráficos categóricos para explorar a distribuição de filmes em outros idiomas.
+- **tmdb_5000_movies**: Arquivo com dados brutos e processados.
+- **TMDBMovies-DataAnalysis**: Jupyter Notebooks com análises e visualizações.
+- **README.md**: Este arquivo, que fornece informações sobre o projeto.
 
 ## Tecnologias Utilizadas
 
